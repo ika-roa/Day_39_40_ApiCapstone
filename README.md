@@ -1,13 +1,12 @@
 #Project idea
 
-- set up .csv file with places to observe and weather criteria
-- automatically get latitude / longitude of selected place
+- set up .csv file with stocks to observe and price limits
+- automatically get WKN number of selected stocks
 - Create UI for this app
   - with menu
-  - add / modify / delete places in .csv file
-  - change weather criteria in .csv file
-  - select time span for weather observations
-- Use weather API to get weather in the next few days / weeks for selected places
-- check if and when weather in observed places is better than criteria
+  - add / modify / delete stock in .csv file
+  - change limits in .csv file
+- Use yfinance to get stock prices of the last day / week / ?
+- check if and when observed stocks are cheaper than criteria
 - create results table
-- give travel recommendations / show overview in app
+- give buying recommendations / show overview in app
